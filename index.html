@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic Light with JS</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+</head>
+<body>
+
+    <div class="traffic-light">
+        <div id="red" class="light red"><i id="redIcon" class="ri-close-line"></i></div>
+        <div id="yellow" class="light yellow"><i id="yellowIcon" class="ri-error-warning-line"></i></div>
+        <div id="green" class="light green"><i id="greenIcon" class="ri-walk-line"></i></div>
+        <div id="timer"></div>
+    </div>
+    <div class="bar"></div>
+
+    <div id="clouds">
+        <div class="cloud x1"></div>
+        <div class="cloud x2" style="--scale: 0.6; --opacity: 0.6; --duration: 25s"></div>
+        <div class="cloud x3" style="--scale: 0.8; --opacity: 0.8"></div>
+        <div class="cloud x4" style="--scale: 0.75; --opacity: 0.75; --duration: 18s"></div>
+        <div class="cloud x5" style="--scale: 0.8; --opacity: 0.8"></div>
+    </div>
+  
+</body>
+</html>
